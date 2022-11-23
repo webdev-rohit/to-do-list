@@ -1,5 +1,3 @@
-# video - https://www.youtube.com/watch?v=oA8brF3w5XQ&t=2513s
-
 from flask import Flask, render_template, request, redirect
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
