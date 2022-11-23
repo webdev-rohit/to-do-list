@@ -1,0 +1,8 @@
+1. DB creation error with sqlite 
+Following the tutorial, while creating the sqlite database, we have to run the db.create_all() command, but it gave this error - RuntimeError: Working outside of application context.
+So, instead of writing 'from app import db' and then creating the db in the terminal, I had to execute 3 commands -
+a. from app import app, db
+b. app.app_context().push()  
+c. db.create_all()
+Source - https://stackoverflow.com/questions/73961938/flask-sqlalchemy-db-create-all-raises-runtimeerror-working-outside-of-applicat
+Note: A good UI to view data in sqlite - https://inloop.github.io/sqlite-viewer/
