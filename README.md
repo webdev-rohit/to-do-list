@@ -8,7 +8,7 @@ Todo List is a simple day-to-day to-do's web application built using Python Flas
 
 ## Contributing
 
-Pull requests are welcome. 
+Pull requests are welcome. You can also use the app and watch it in action at https://todo-rohit14101998.herokuapp.com/
 
 ## License
 
